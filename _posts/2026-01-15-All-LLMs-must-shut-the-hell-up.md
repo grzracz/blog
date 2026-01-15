@@ -8,7 +8,7 @@ I like building cool things. This is primarily why I was so excited when I first
 
 Of course I tried all sorts of things, starting from GitHub Copilot autocomplete and ending with Claude Code (Opus 4.5 is REALLY good). And while I could create code much faster, it seemed like my speed of building software didn't really improve. And more importantly, my ratio of reading code to writing code got completely obliterated.
 
-At some point, you get tired of reading code: the typical "LGTM" attitude wins. And at exactly that point, you are no longer the author of the code. The _I_ in _I like building cool things_ is gone. You see, the sentence is not _I like seeing cool things get built_: it's _I like building cool things_.
+At some point, you get tired of reading code: the typical "LGTM" attitude wins. And at exactly that point, you are no longer the author of the code. The _I_ in _I like building cool things_ is gone. The sentence is not _I like seeing cool things get built_.
 
 ![Claude chair](/assets/1/claude_chair.jpeg){: style="max-height:400px;" }
 
@@ -18,7 +18,7 @@ GitHub Copilot did not change my satisfaction of coding because all it did was s
 
 Claude Code and other agents are a completely different beast. And I think the biggest problem lies in their UX design. When I write code, it is my sacred time of flow. I dive deeply into a mountain of files, multiple of them open in my editor. My focus is entirely in my IDE and all that is happening is a mental building of blocks in my head. Most of the time I don't actually write code. I start writing code when the solution is already obvious and all that is left is explaining that solution to a computer.
 
-![Meeting chart](/assets/1/meeting_chart.png)
+![Meeting chart](/assets/1/meeting_chart.png){: style="max-height:400px;" }
 
 Agents don't let me get there. Just imagine having an entire coding day filled with "5 minute meetings". A chat interface forces me to involuntarily activate my social skills, despite logically knowing that this text is not being read by a human being. It stops being a tool and instead becomes a coworker behind a screen. It is so easy to just anthropomorphize the agent that you need to constantly keep fighting your own instincts. You feel bad when you scorn it for making a mistake, which to me is just pure insanity. Would I curse and swear at any of my other software if it didn't work properly? Of course! It does not have feelings! Exact same logic applies to LLMs, but it simply does not "feel" that way.
 
@@ -28,7 +28,7 @@ So, I needed to find some solution. I want to go back to this GitHub Copilot-lik
 
 For this reason, I've made an [extension for VS Code](https://marketplace.visualstudio.com/items?itemName=grzracz.llm-implement) that solves the problem a little bit. The previous CTRL+I shortcut still exposed you to a (small) chat interface. I've changed it so instead the LLM is told to figure it out. If there's a comment, do what the comment says. If there's a bug, fix it. But don't ask me any questions: you are a tool, you have no right to speak in my holy tongue.
 
-![All machines](/assets/1/all_machines.jpg)
+![All machines](/assets/1/all_machines.jpg){: style="max-height:400px;" }
 
 Feel free to use the extension but beware it is of "works on my machine" code quality.
 

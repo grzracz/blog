@@ -8,6 +8,7 @@ author:
   name: grzracz
   email: greg@kymi.games
 
+remote_theme: jekyll/minima
 
 github_username: grzracz
 linkedin_username: grzracz
@@ -17,3 +18,7 @@ show_excerpts: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
+
+minima:
+  skin: dark
