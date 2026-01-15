@@ -1,7 +1,25 @@
 theme: minima
 
 title: grzracz
+description: I build cool things. I write about them here.
+url: "https://grzracz.github.io"
+baseurl: "/blog"
 
 author:
   name: grzracz
   email: greg@kymi.games
+
+minima:
+  skin: dark
+
+github_username: grzracz
+linkedin_username: grzracz
+
+header_pages:
+  - about.md
+
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
