@@ -1,17 +1,56 @@
 ---
 ---
 
-@import "minima/skins/dark";
 @import "minima";
 
+// Dark theme overrides (minima 2.5.1 on GitHub Pages doesn't support skins)
+body {
+  background-color: #1e1e1e;
+  color: #ddd;
+}
+
+a {
+  color: #79b8ff;
+  &:visited { color: #b392f0; }
+  &:hover { color: #fff; }
+}
+
+.site-header {
+  background-color: #1e1e1e;
+  border-bottom-color: #444;
+}
+
+.site-title, .site-title:visited {
+  color: #ddd;
+}
+
+.site-nav .page-link {
+  color: #ddd;
+}
+
+.site-footer {
+  border-top-color: #444;
+}
+
+.post-meta {
+  color: #999;
+}
+
+code {
+  background-color: #2d2d2d;
+  border-color: #444;
+}
+
+pre {
+  background-color: #2d2d2d;
+  border-color: #444;
+}
+
+// Image styling
 .post-content img {
   display: block;
   max-height: 400px;
   width: auto;
-  margin: 0 auto;
-}
-
-.post-content p img {
-  display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
