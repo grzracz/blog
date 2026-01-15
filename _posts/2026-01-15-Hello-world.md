@@ -6,4 +6,4 @@ date: 2026-01-15
 
 This is a test blog post.
 
-![All machines](/assets/all_machines.jpg)
+![All machines]({{ site.baseurl }}/assets/all_machines.jpg)
