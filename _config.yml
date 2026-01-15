@@ -1,8 +1,8 @@
 theme: minima
 
 title: grzracz
-url: "https://grzracz.github.io"
-baseurl: "/blog"
+url: "https://grzra.cz"
+baseurl: "/"
 
 author:
   name: grzracz
@@ -14,7 +14,8 @@ minima:
 github_username: grzracz
 linkedin_username: grzracz
 
-header_pages:
-  - about.md
-
 show_excerpts: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
