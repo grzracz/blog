@@ -10,7 +10,7 @@ Of course I tried all sorts of things, starting from GitHub Copilot autocomplete
 
 At some point, you get tired of reading code: the typical "LGTM" attitude wins. And at exactly that point, you are no longer the author of the code. The _I_ in _I like building cool things_ is gone. You see, the sentence is not _I like seeing cool things get built_: it's _I like building cool things_.
 
-![Claude chair](/assets/1/claude_chair.jpeg)
+![Claude chair](/assets/1/claude_chair.jpeg){: style="max-height:400px;" }
 
 My love of writing code comes from thinking, theorycrafting, tinkering with technology, figuring out problems and eventually finding a solution. I "win" over a problem. I get to add that to my awesome collection of problems that I have solved and technologies I now have experience with. I remember literally crying tears of joy when I figured out all the problems with my first AWS ECS deployment after having no previous experience with cloud or Docker (it took me three days and I was mentally ready to escape to the forest on day two). I understand some people don't get their kicks from solving technically challenging problems - for those of you, the rest of the blog post might not make much sense.
 
